@@ -17,6 +17,21 @@
     font-weight: normal;
 }
 
+.case-study-title {
+    font-weight: bold;
+}
+
+/* Target the h1 elements within .header-text and make them bold */
+.header-text h1 {
+    font-weight: bold;
+}
+
+/* Target the h1 elements with class .sub-title and make them bold */
+.sub-title {
+    font-weight: bold;
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
     /* Add other body styles here */
