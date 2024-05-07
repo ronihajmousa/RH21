@@ -524,12 +524,16 @@ display: none;
         background-image: url(TutorialImages/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 50px;
+        font-size: 14px;
     }
 
     .header-text h1{
-        font-size: 30px;
+        font-size: 24px;
+    }
+    
+    nav ul {
+        display: none; /* Hide the navigation menu by default */
     }
 
     nav .fa-solid{
@@ -612,6 +616,7 @@ display: none;
 }
 
 .work img {
+    width: 100%;
     height: auto; /* Allow the height to adjust based on the aspect ratio */
 }
 
