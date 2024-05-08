@@ -42,6 +42,10 @@ p {
     /* Add other paragraph styles here */
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
+}
 
 html{
     scroll-behavior: smooth;
