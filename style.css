@@ -11,7 +11,11 @@
     /* Add additional font formats and font weights/styles if necessary */
 }
 
-
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
 
 .case-study-title {
     font-weight: bold;
@@ -30,10 +34,7 @@
 }
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-    /* Add other body styles here */
-}
+
 
 p {
     font-weight: normal; /* Set paragraph text to regular weight */
