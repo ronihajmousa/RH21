@@ -23,12 +23,14 @@
 
 /* Target the h1 elements within .header-text and make them bold */
 .header-text h1 {
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
 }
 
 /* Target the h1 elements with class .sub-title and make them bold */
 .sub-title {
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
 }
 
 
