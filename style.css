@@ -12,11 +12,7 @@
     font-weight: bold;
 }
 
-@font-face {
-    font-family: 'Poppins';
-    src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
+
 
 
 .case-study-title {
