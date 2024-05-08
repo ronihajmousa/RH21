@@ -1,17 +1,35 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
+/* Define @font-face for Poppins bold */
 @font-face {
     font-family: 'Poppins';
     src: url('../Poppins/Poppins-Bold.ttf') format('truetype');
     /* Add additional font formats and font weights/styles if necessary */
-    font-weight: bold;
+    font-weight: bold; /* Specify the font weight */
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* Apply Poppins bold to headings */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins to headings */
+    font-weight: bold; /* Make headings bold */
+}
+
+/* Apply Poppins to paragraphs */
+p {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins to paragraphs */
+    font-weight: normal;
+    /* Other paragraph styles */
+}
 
 
 
