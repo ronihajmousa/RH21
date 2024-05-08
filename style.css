@@ -33,7 +33,10 @@
     font-weight: bold; /* Set the font weight to bold */
 }
 
-
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Add other body styles here */
+}
 
 
 p {
