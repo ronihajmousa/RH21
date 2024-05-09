@@ -7,7 +7,7 @@
 /* Define @font-face for Poppins bold */
 @font-face {
     font-family: 'Poppins';
-    src: url('../Poppins/Poppins-Bold.ttf') format('truetype');
+    src: url('../Poppins/Poppins-SemiBold.ttf') format('truetype');
     /* Add additional font formats and font weights/styles if necessary */
     font-weight: bold; /* Specify the font weight */
 }
