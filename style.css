@@ -1,68 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Define @font-face for Poppins bold */
-@font-face {
-    font-family: 'Poppins';
-    src: url('../Poppins/Poppins-SemiBold.ttf') format('truetype');
-    /* Add additional font formats and font weights/styles if necessary */
-    font-weight: bold; /* Specify the font weight */
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
-
-/* Apply Poppins bold to headings */
-h1, h2, h3 {
-    font-family: 'Poppins', sans-serif; /* Apply Poppins to headings */
-    font-weight: bold; /* Make headings bold */
-}
-
-/* Apply Poppins to paragraphs */
-p {
-    font-family: 'Poppins', sans-serif; /* Apply Poppins to paragraphs */
-    font-weight: normal;
-    /* Other paragraph styles */
-}
-
-
-
-.case-study-title {
-    font-weight: bold;
-}
-
-/* Target the h1 elements within .header-text and make them bold */
-.header-text h1 {
-    font-family: 'Poppins', sans-serif; /* Specify the font family */
-    font-weight: bold; /* Set the font weight to bold */
-}
-
-/* Target the h1 elements with class .sub-title and make them bold */
-.sub-title {
-    font-family: 'Poppins', sans-serif; /* Specify the font family */
-    font-weight: bold; /* Set the font weight to bold */
-}
-
-body {
     font-family: 'Poppins', sans-serif;
-    /* Add other body styles here */
-}
-
-
-p {
-    font-weight: normal; /* Set paragraph text to regular weight */
-    /* Add other paragraph styles here */
-}
-
-h1 {
-    font-family: 'Poppins', sans-serif; /* Specify the font family */
-    font-weight: bold; /* Set the font weight to bold */
+    box-sizing: border-box;
 }
 
 html{
@@ -536,26 +476,32 @@ margin-top: 20px;
 
 
 /* -------------------- css for small screens -------------------- */
-
-nav .fa-solid{
-display: none;
+@media only screen and (min-width: 601px) {
+    /* Hide burger menu and cross icons for desktop layout */
+    nav .fa-bars,
+    nav .fa-xmark {
+        display: none;
+    }
 }
+
+
 
 @media only screen and (max-width: 600px) {
     #header{
         background-image: url(TutorialImages/phone-background.png);
     }
+
+    #sidemenu {
+        display: block;
+    }
+    
     .header-text{
-        margin-top: 50px;
-        font-size: 14px;
+        margin-top: 100%;
+        font-size: 16px;
     }
 
     .header-text h1{
-        font-size: 24px;
-    }
-    
-    nav ul {
-        display: none; /* Hide the navigation menu by default */
+        font-size: 30px;
     }
 
     nav .fa-solid{
@@ -578,6 +524,17 @@ display: none;
         nav ul li{
             display: block;
             margin: 25px;
+        }
+
+        nav ul li a::after{
+            content: '';
+            width: 0;
+            height: 3px;
+            background:  #fff;
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            transition: 0.5s;
         }
 
         nav ul .fa-solid{
@@ -638,7 +595,7 @@ display: none;
 }
 
 .work img {
-    width: 100%;
+    
     height: auto; /* Allow the height to adjust based on the aspect ratio */
 }
 
@@ -658,6 +615,7 @@ display: none;
 }
 
 .work img {
+    
     height: auto; /* Allow the height to adjust based on the aspect ratio */
 }
 
@@ -677,4 +635,5 @@ display: none;
     height: 350px;
     }
 }
+
 
