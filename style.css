@@ -1,10 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
+/* Define @font-face for Poppins bold */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-SemiBold.ttf') format('truetype');
+    /* Add additional font formats and font weights/styles if necessary */
+    font-weight: bold; /* Specify the font weight */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+/* Apply Poppins bold to headings */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins to headings */
+    font-weight: bold; /* Make headings bold */
+}
+
+/* Apply Poppins to paragraphs */
+p {
+    font-family: 'Poppins', sans-serif; /* Apply Poppins to paragraphs */
+    font-weight: normal;
+    /* Other paragraph styles */
+}
+
+
+
+.case-study-title {
+    font-weight: bold;
+}
+
+/* Target the h1 elements within .header-text and make them bold */
+.header-text h1 {
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
+}
+
+/* Target the h1 elements with class .sub-title and make them bold */
+.sub-title {
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Add other body styles here */
+}
+
+
+p {
+    font-weight: normal; /* Set paragraph text to regular weight */
+    /* Add other paragraph styles here */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; /* Specify the font family */
+    font-weight: bold; /* Set the font weight to bold */
+}
 html{
     scroll-behavior: smooth;
 }
