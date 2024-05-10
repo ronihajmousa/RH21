@@ -473,6 +473,7 @@ margin-top: 20px;
     background-image: url('TutorialImages/BBCCOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
     width: 100%; /* Stretch the cover container across the screen */
     display: flex;
@@ -487,6 +488,7 @@ margin-top: 20px;
     background-image: url('TutorialImages/JARSPACECOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
     width: 100%; /* Stretch the cover container across the screen */
     display: flex;
@@ -501,6 +503,7 @@ margin-top: 20px;
     background-image: url('TutorialImages/TCPCover.jpg'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
     background-size: cover;
     background-position-y: 60%;
+    background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
     width: 110%; /* Stretch the cover container across the screen */
     display: flex;
