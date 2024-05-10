@@ -549,8 +549,7 @@ margin-top: 20px;
 
 
 @media only screen and (max-width: 600px) {
-   
-#header{
+    #header{
         background-image: url(TutorialImages/phone-background.png);
     }
 
@@ -771,5 +770,4 @@ margin-top: 20px;
     padding-top: 10px; /* Add space between the image and the title */
 }
 }
-
 
