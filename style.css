@@ -679,7 +679,7 @@ margin-top: 20px;
 
 .cover-container2 {
    
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
@@ -694,7 +694,7 @@ margin-top: 20px;
 
 .cover-container3 {
     
-    background-size: contain;
+    background-size: cover;
     background-position-y: 60%;
     background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
