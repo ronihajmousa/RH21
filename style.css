@@ -663,7 +663,7 @@ margin-top: 20px;
 
 
 .cover-container {
-    background-image: url('TutorialImages/BBCCOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+    
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -678,7 +678,7 @@ margin-top: 20px;
 }
 
 .cover-container2 {
-    background-image: url('TutorialImages/JARSPACECOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -693,7 +693,7 @@ margin-top: 20px;
 }
 
 .cover-container3 {
-    background-image: url('TutorialImages/TCPCover.jpg'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+    
     background-size: cover;
     background-position-y: 60%;
     background-repeat: no-repeat;
