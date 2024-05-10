@@ -549,15 +549,7 @@ margin-top: 20px;
 
 
 @media only screen and (max-width: 600px) {
-    #header{
-        
-        background-image: url(RoniSmile.png);
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position-x: 20px;
-    background-position-y: center;
-}
-    }
+   
 
     #sidemenu {
         display: block;
