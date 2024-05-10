@@ -23,9 +23,9 @@
                 
                 
                 <ul id="sidemenu">
-                    <li> <a href="#portfolio">Work</a> </li>
-                    <li> <a href="#about">About</a> </li>   
-                    <li> <a href="#contact">Contact</a> </li>   
+                    <li> <a href="#portfolio" id="navItems">Work</a> </li>
+                    <li> <a href="#about" id="navItems"> About</a> </li>   
+                    <li> <a href="#contact" id="navItems">Contact</a> </li>   
                 
                         
                     
@@ -225,7 +225,13 @@ function closemenu(){
     sidemeu.style.right = "-200px"
 }
 
+const sidemenuitem = document.getElementById("navItems");
 
+sidemenuitem.addEventListener('click', function() {
+
+closemenu();
+
+});
 </script>
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxd4_9CkOvnsh57xebx1O3gXsqgkL1bqS4C4Mtm1vnSpFZajzHrcx751F_Z0kZy-jzW/exec'
