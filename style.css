@@ -505,7 +505,7 @@ margin-top: 20px;
     background-position-y: 60%;
     background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
-    width: 110%; /* Stretch the cover container across the screen */
+    width: 100%; /* Stretch the cover container across the screen */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -663,6 +663,7 @@ margin-top: 20px;
 
  
     .cover-container {
+        visibility: hidden;
         background-size: contain; /* Adjust background-size to contain */
         background-position: center; /* Center the background image */
         height: 300px; /* Adjust the height of the cover container as needed */
@@ -676,6 +677,7 @@ margin-top: 20px;
     }
 
     .cover-container2 {
+        visibility: hidden;
         background-size: contain; /* Adjust background-size to contain */
         background-position: center; /* Center the background image */
         height: 300px; /* Adjust the height of the cover container as needed */
@@ -689,6 +691,7 @@ margin-top: 20px;
     }
 
     .cover-container3 {
+        visibility: hidden;
         background-size: contain; /* Adjust background-size to contain */
         background-position: center; /* Center the background image */
         height: 300px; /* Adjust the height of the cover container as needed */
