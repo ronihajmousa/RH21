@@ -668,7 +668,7 @@ margin-top: 20px;
     background-position: bottom;
     background-repeat: no-repeat;
     height: 600px; /* Adjust the height of the cover container as needed */
-    width: 100%; /* Stretch the cover container across the screen */
+    width: 50%; /* Stretch the cover container across the screen */
     display: flex;
     align-items: center;
     justify-content: center;
