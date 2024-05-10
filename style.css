@@ -661,49 +661,52 @@ margin-top: 20px;
     height: auto; /* Allow the height to adjust based on the aspect ratio */
 }
 
+
+.cover-container {
+    background-image: url('TutorialImages/BBCCOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 600px; /* Adjust the height of the cover container as needed */
+    width: 100%; /* Stretch the cover container across the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Set the text color to white to ensure visibility */
+    text-align: center;
+    padding-top: 10px; /* Add space between the image and the title */
+}
+
+.cover-container2 {
+    background-image: url('TutorialImages/JARSPACECOVER.png'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px; /* Adjust the height of the cover container as needed */
+    width: 100%; /* Stretch the cover container across the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Set the text color to white to ensure visibility */
+    text-align: center;
+    padding-top: 10px; /* Add space between the image and the title */
+}
+
+.cover-container3 {
+    background-image: url('TutorialImages/TCPCover.jpg'); /* Replace 'TutorialImages/BBCFitNotionCover3.png' with the path to your cover image */
+    background-size: cover;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    height: 600px; /* Adjust the height of the cover container as needed */
+    width: 100%; /* Stretch the cover container across the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Set the text color to white to ensure visibility */
+    text-align: center;
+    padding-top: 10px; /* Add space between the image and the title */
+}
  
-    .cover-container {
-        visibility: hidden;
-        background-size: contain; /* Adjust background-size to contain */
-        background-position: center; /* Center the background image */
-        height: 300px; /* Adjust the height of the cover container as needed */
-        width: 100%; /* Stretch the cover container across the screen */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; /* Set the text color to white to ensure visibility */
-        text-align: center;
-        padding-top: 10px; /* Add space between the image and the title */
-    }
-
-    .cover-container2 {
-        visibility: hidden;
-        background-size: contain; /* Adjust background-size to contain */
-        background-position: center; /* Center the background image */
-        height: 300px; /* Adjust the height of the cover container as needed */
-        width: 100%; /* Stretch the cover container across the screen */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; /* Set the text color to white to ensure visibility */
-        text-align: center;
-        padding-top: 10px; /* Add space between the image and the title */
-    }
-
-    .cover-container3 {
-        visibility: hidden;
-        background-size: contain; /* Adjust background-size to contain */
-        background-position: center; /* Center the background image */
-        height: 300px; /* Adjust the height of the cover container as needed */
-        width: 100%; /* Stretch the cover container across the screen */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white; /* Set the text color to white to ensure visibility */
-        text-align: center;
-        padding-top: 10px; /* Add space between the image and the title */
-    }
-
 
 
 /* -------------------- css for small screens -------------------- */
